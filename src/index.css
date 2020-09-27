@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans');
+
+.heading {
+  color: #ac4b1c !important;
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+
+.mainSlide.heading{
+  font-size: 60px;
+}
+
+p {
+  font-family: 'Open Sans', 'Sans-Serif';
+  color: #707070;
+  font-size: 24px;
+}
+
+.slide {
+  display: none;
+  width: 1000px;
+  text-align: center;
+}
+
+section{
+  width: 800px;
+  height: 300px;
+  padding-top: 10%;
+}
+
+.active {
+  display: block;
+
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+
+.slider-item {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background-color: #ffd57e ;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.slider-text {
+  width: 800px;
+}
+
+.mainSlide {
+  font-size: 3em;
+  letter-spacing: 3px;
+  font-family: 'Anton', sans-serif;
+}
+
+.fa {
+  color: #707070;
+}
